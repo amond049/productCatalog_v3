@@ -4,18 +4,18 @@ public class Product {
 
     private String _id;
     private String _productname;
-    private double _price;
+    private int _price;
 
     public Product() {
     }
 
-    public Product(String id, String productname, double price) {
+    public Product(String id, String productname, int price) {
         _id = id;
         _productname = productname;
         _price = price;
     }
 
-    public Product(String productname, double price) {
+    public Product(String productname, int price) {
         _productname = productname;
         _price = price;
     }
@@ -36,11 +36,11 @@ public class Product {
         return _productname;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         _price = price;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return _price;
     }
 
