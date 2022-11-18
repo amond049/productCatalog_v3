@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     ListView listViewProducts;
     List<Product> products;
 
+    // Testing a commit to see if it works!
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
